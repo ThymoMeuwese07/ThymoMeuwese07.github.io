@@ -1,0 +1,133 @@
+<script>
+
+    //type hier je javascript en gebruik de debugger om de console te bekijken
+
+// Definieer JavaScript-objecten voor elke vraag in de quiz
+
+var vraag1 = {
+
+vraagtekst: "Wat bestudeert een osteoloog?",
+
+mogelijkeAntwoorden: ["A. botten", "B. bloed", "C. brein"],
+
+juisteAntwoord: "A"
+
+};
+
+
+
+var vraag2 = {
+
+vraagtekst: "Wat is het Italiaanse woord voor meester of leraar??",
+
+mogelijkeAntwoorden: ["A. teacher", "B. meastro", "C. kennari"],
+
+juisteAntwoord: "B"
+
+};
+
+
+
+var vraag3 = {
+
+vraagtekst: "Welke is de grootste planeet van ons zonnestelsel?",
+
+mogelijkeAntwoorden: ["A. Mars", "B. Jupiter", "C. Aarde"],
+
+juisteAntwoord: "B"
+
+};
+
+
+
+var vraag4 = {
+
+vraagtekst: "Hoe noemt men het zachtjes golven van water?",
+
+mogelijkeAntwoorden: ["A. zeeig", "B. Kabbelen", "C. kwabbelen"],
+
+juisteAntwoord: "B"
+
+};
+
+
+
+var vraag5 = {
+
+vraagtekst: "Waarvoor is iemand van coulrofobie bang?",
+
+mogelijkeAntwoorden: ["A. bergen", "B. clowns", "C. diepe wateren"],
+
+juisteAntwoord: "B"
+
+};
+
+
+
+// Maak een array om de vraag-objecten op te slaan
+
+var vraagArray = [vraag1, vraag2, vraag3, vraag4,vraag5];
+
+
+
+// Schrijf de functie "weergeefVragen" om de vragen aan de gebruiker weer te geven
+
+function weergeefVragen() {
+
+var score = 0; // Houd de score bij
+
+var totaalVragen = vraagArray.length;
+
+
+
+for (var i = 0; i < totaalVragen; i++) {
+
+var vraag = vraagArray[i];
+
+var antwoord = prompt(vraag.vraagtekst + "\n" + vraag.mogelijkeAntwoorden.join("\n"));
+
+
+
+if (antwoord === vraag.juisteAntwoord) {
+
+score++; // Verhoog de score als het antwoord juist is
+
+}
+
+}
+
+
+
+geefFeedback(score, totaalVragen); // Geef feedback aan de gebruiker
+
+}
+
+
+
+// Schrijf de functie "geefFeedback" om feedback aan de gebruiker te geven
+
+function geefFeedback(score, totaalVragen) {
+
+var percentageCorrect = (score / totaalVragen) * 100;
+
+var bericht = "Je hebt " + score + " van de " + totaalVragen + " vragen correct beantwoord.\n";
+
+bericht += "Je score: " + percentageCorrect + "%";
+
+alert(bericht);
+
+}
+
+
+
+// Voer de functie "weergeefVragen" uit om de quiz te starten
+
+weergeefVragen();
+
+
+
+
+
+   
+
+</script>

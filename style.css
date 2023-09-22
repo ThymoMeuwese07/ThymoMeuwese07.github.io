@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(1, 1, 1);
+  }
+
+  h1 {
+    color: rgb(230, 240, 110);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    color: rgb(230, 240, 110);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h3 {
+    color: rgb(230, 240, 110);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(117, 119, 121);
+  }
+
+  table  {
+    border: 1px solid rgb(78, 58, 50);
+    color: rgb(117, 119, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 47, 48);
+    width: 300px;
+    height: 10px;
+    border-collapse: collapse;
+  }
+
+  
+
+
+  td {
+    border: 1px solid rgb(135, 68, 46);
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 2px;
+    color: rgb(107, 136, 83);
+    font-weight:bold;
+    
+}
+
+th {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 2px;
+    color: rgb(100, 105, 90);
+    border: 1px solid rgb(135, 68, 46);
+    font-weight:bold;
+    
+    
+}
+
+ul {
+   
+    color: rgb(125, 125, 121);
+    list-style-type: square;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ol {
+   
+  color: rgb(125, 125, 121);
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: lower-greek;
+}
+
+dl {
+   
+  color: rgb(145, 70, 42);
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: lower-greek;
+}
+
+dd {
+  
+
+  color: rgb(120, 125, 121);
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: lower-greek;
+}
+
+a {
+  color: rgb(120, 125, 121);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
